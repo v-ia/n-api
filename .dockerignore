@@ -1,0 +1,5 @@
+/venv/
+.env_sample
+near_earth_objects.txt
+near_earth_objects.csv
+*.md
