@@ -1,10 +1,10 @@
-import pandas as pd
-import psycopg2
-from psycopg2.extensions import connection
-import requests
-import os
 from datetime import date, timedelta
 from dotenv import load_dotenv
+from psycopg2.extensions import connection
+import pandas as pd
+import psycopg2
+import requests
+import os
 
 
 # Получить список астероидов за последние 3 дня
@@ -12,7 +12,7 @@ def get_earth_objects() -> dict:
     try:
         resp = requests.get(f'https://api.nasa.gov/neo/rest/v1/feed?'
                         f'start_date={date.today() - timedelta(days=2)}&'
-                        f'end_date={date.today()}&api_key=QgNIUEwZScsBJc3WoDAUtLgYj7xFZJROBPln9ZHA')
+                        f'end_date={date.today()}&api_key=DEMO_KEY')
         resp_dict = resp.json()
         near_earth_objects = resp_dict["near_earth_objects"]
         with open("near_earth_objects.txt", "w") as f:
