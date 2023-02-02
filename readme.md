@@ -10,8 +10,10 @@
 
 **Пример результата запуска main.py:**
 
-![](../../Downloads/Screenshot 2023-02-02 at 10.02.09 PM.png)
+<img width="1055" alt="Screenshot 2023-02-02 at 10 02 09 PM" src="https://user-images.githubusercontent.com/102062747/216433301-a7169a6a-a448-43c6-9a23-7bc759976b05.png">
+
 
 **Пример результата загрузки данных из DataFrame в базу данных:**
 
-![](../../Downloads/Screenshot 2023-02-02 at 9.42.08 PM.png)
+<img width="1217" alt="Screenshot 2023-02-02 at 9 42 08 PM" src="https://user-images.githubusercontent.com/102062747/216433366-6efee816-9df9-445a-ac7d-2cc646fddb59.png">
+
