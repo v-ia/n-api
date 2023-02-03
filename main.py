@@ -31,7 +31,7 @@ def get_dataframe(data_dict: dict) -> pd.DataFrame:
                               float(ob['estimated_diameter']['kilometers']['estimated_diameter_min']),
                               float(ob['estimated_diameter']['kilometers']['estimated_diameter_max']),
                               float(ob['close_approach_data'][0]['relative_velocity']['kilometers_per_second']),
-                              float(ob['close_approach_data'][0]['miss_distance']['kilometers']), date.today()])
+                              float(ob['close_approach_data'][0]['miss_distance']['kilometers']), key])
 
     df = pd.DataFrame(data_list, columns=['id', 'name', 'is_potentially_hazardous_asteroid',
                                           'estimated_diameter_min_km', 'estimated_diameter_max_km',
