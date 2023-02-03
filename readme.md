@@ -10,10 +10,9 @@
 
 **Пример результата запуска main.py:**
 
-<img width="1055" alt="Screenshot 2023-02-02 at 10 02 09 PM" src="https://user-images.githubusercontent.com/102062747/216433301-a7169a6a-a448-43c6-9a23-7bc759976b05.png">
+<img width="1020" alt="Screenshot 2023-02-03 at 1 51 48 PM" src="https://user-images.githubusercontent.com/102062747/216583453-dca7b398-fee7-4bb1-bb22-6204923d4ee6.png">
 
 
 **Пример результата загрузки данных из DataFrame в базу данных:**
 
-<img width="1217" alt="Screenshot 2023-02-02 at 9 42 08 PM" src="https://user-images.githubusercontent.com/102062747/216433366-6efee816-9df9-445a-ac7d-2cc646fddb59.png">
-
+<img width="1190" alt="Screenshot 2023-02-03 at 1 58 02 PM" src="https://user-images.githubusercontent.com/102062747/216586696-17c864eb-2983-4828-bba0-daac821c21b3.png">
